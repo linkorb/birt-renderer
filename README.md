@@ -54,7 +54,8 @@ $renderer->render($report, $parameters, $outputfilename);
 
 This library includes an example console command to invoke the library. You can use it like this:
 
-    ./bin/birt-renderer report:render myreport.rptdesign output.pdf
+    export BIRT_HOME=/home/yourname/birt-runtime-4_4_1
+    ./bin/birt-renderer report:render --parameter Color=Red --parameter Size=XL myreport.rptdesign output.pdf
 
 Based on the file-extension of the output file it will automatically detect the format.
 
