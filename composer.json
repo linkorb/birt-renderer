@@ -1,0 +1,25 @@
+
+{
+    "name": "linkorb/birt-renderer",
+    "description": "Render BIRT reports from PHP",
+    "homepage": "https://github.com/linkorb/birt-renderer",
+    "keywords": ["birt", "business intelligence", "reporting"],
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BirtRenderer\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
