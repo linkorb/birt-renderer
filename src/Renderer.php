@@ -52,7 +52,7 @@ class Renderer
         $cmd .= " -o " . $outputfilename;
         $cmd .= " --file " . $report->getFilename();
         
-        echo $cmd . "\n";
+        //echo $cmd . "\n";
         putenv('BIRT_HOME=' . $this->birthome);
         exec($cmd, $output);
     }
