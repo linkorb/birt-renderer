@@ -16,7 +16,7 @@ This means that you'll need to have the BIRT Runtime installed (see below).
 
 You'll need to have a recent version of the BIRT Runtime extracted somewhere on your computer/server.
 
-You can download it here: (http://download.eclipse.org/birt/downloads/)[http://download.eclipse.org/birt/downloads/]
+You can download it here: [http://download.eclipse.org/birt/downloads/](http://download.eclipse.org/birt/downloads/)
 
 Make sure you download the `BIRT Runtime`, and not the `All-in-One` or other options.
 
@@ -61,7 +61,7 @@ Based on the file-extension of the output file it will automatically detect the 
 
 ## License
 
-MIT (see LICENSE.md)
+MIT (see [LICENSE.md](LICENSE.md))
 
 ## Brought to you by the LinkORB Engineering team
 
