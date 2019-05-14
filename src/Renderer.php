@@ -21,12 +21,21 @@ class Renderer
                 case 'doc':
                     $format = 'doc';
                     break;
+                case 'docx':
+                    $format = 'docx';
+                    break;    
                 case 'xls':
                     $format = 'xls';
                     break;
+                case 'xlsx':
+                    $format = 'xlsx';
+                    break;    
                 case 'ppt':
                     $format = 'ppt';
                     break;
+                case 'pptx':
+                    $format = 'pptx';
+                    break;           
                 case 'postscript':
                 case 'ps':
                     $format = 'postscript';
